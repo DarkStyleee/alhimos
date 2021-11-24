@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>IT-ARH-2021</title>
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+  <div class="wrapper">
+    <main class="main">
+      <div class="contents">
+        <section class="screen-1">
+          <header class="header">
+            <nav class="main-nav">
+              <ul>
+                <li><a href="#main">Главная</a></li>
+                <li><a href="#about">Об игре</a></li>
+                <li><a href="#elem">Механики</a></li>
+                <li><a href="#form">Бета-тест</a></li>
+              </ul>
+            </nav>
+          </header>
+          <div id="main" class="screen-1__content">
+            <div class="screen-1__desc">
+              <img class="screen-1__img" src="./img/logo.png" alt="logo">
+              <div class="screen-1__text">
+                <p>Мобильная игра в жанре RPG.</p>
+                <p>Собирайте редкие ресурсы и создавайте легендарные зелья.</p>
+                <p>Прокачивайтесь, участвуйте в PVP сражениях, зарабатывайте славу и возглавьте стену славы.</p>
+                <p>Общайтесь, торгуйте, помогайте другим и участвуйте в массовых сражениях и рейдах.</p>
+                <p>Подавайте заявку для участия и станьте первооткрывателем зелья бессмертия!</p>
+              </div>
+              <a href="#form" class="form-btn-link">
+                <div class="form-btn">
+                  <button type="button" class="form-btn__btn">Подать заявку</button>
+                </div>
+              </a>
+            </div>
+            <img class="screen-1__img--right" src="./img/book.png" alt="book">
+          </div>
+        </section>
+        <section id="about" class="screen-2">
+          <div class="block-title">
+            <p class="block-title__title">Об игре</p>
+            <img class="block-title__line" src="./img/line.png" alt="line">
+          </div>
+          <div class="elements">
+            <div class="card">
+              <p class="card__title">Предметы</p>
+              <p class="card__text">Более <span class="card__bold">2000</span> различных предметов</p>
+              <div class="card__content">
+                <div class="card-items">
+                  <img class="item-img" src="./img/item1.png" alt="item1">
+                  <img class="item-img" src="./img/item2.png" alt="item2">
+                  <img class="item-img" src="./img/item3.png" alt="item3">
+                  <img class="item-img" src="./img/item4.png" alt="item4">
+                  <img class="item-img" src="./img/item5.png" alt="item5">
+                  <img class="item-img" src="./img/item6.png" alt="item6">
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <p class="card__title">Локации</p>
+              <p class="card__text">Множество различных локаций для поиска ресурсов и сражений</p>
+              <div class="card__content">
+                <img src="./img/map.jpg" alt="map">
+              </div>
+            </div>
+            <div class="card">
+              <p class="card__title">Монстры</p>
+              <p class="card__text">Большое количество различных монстров и боссов</p>
+              <div class="card__content">
+                <img src="./img/monster1.png" alt="monster1">
+              </div>
+            </div>
+            <div class="card">
+              <p class="card__title">Сюжет</p>
+              <p class="card__text">Сюжетная линия, интересные развязки и множество квестов</p>
+              <div class="card__content">
+                <img src="./img/quest.png" alt="quest">
+              </div>
+            </div>
+          </div>
+        </section>
+        <section id="elem" class="screen-3">
+          <div class="block-title">
+            <p class="block-title__title">МЕХАНИКИ</p>
+            <img class="block-title__line" src="./img/line.png" alt="line">
+          </div>
+          <div class="items-blocks">
+            <div class="items-block">
+              <p class="items-block__title">Крафтинг</p>
+              <p class="items-block__text">Изучайте рецепты и создавайте зелья. Недостающие ингредиенты можно получать
+                различными способами (в сражениях, рейдах, торговле и т.д)</p>
+              <div class="items-block__content items-block__content--grid">
+                <div class="item-card">
+                  <img class="item-card-img" src="./img/potion1.png" alt="potion1">
+                  <div class="item-card__content">
+                    <p class="item-card__title">Зелье “Ядовитое облако”</p>
+                    <p class="item-card__text">Необходимо:</p>
+                    <div class="item-card__items">
+                      <div class="res-item">
+                        <img src="./img/res1.png" alt="res1">
+                        <p class="res-item__count">
+                          x<span class="res-item__size">1</span>
+                        </p>
+                      </div>
+                      <div class="res-item">
+                        <img src="./img/res2.png" alt="res2">
+                        <p class="res-item__count">
+                          x<span class="res-item__size">1</span>
+                        </p>
+                      </div>
+                      <div class="res-item">
+                        <img src="./img/res3.png" alt="res3">
+                        <p class="res-item__count">
+                          x<span class="res-item__size">2</span>
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="item-card">
+                  <img class="item-card-img" src="./img/potion2.png" alt="potion2">
+                  <div class="item-card__content">
+                    <p class="item-card__title">Зелье “Болотная жижа”</p>
+                    <p class="item-card__text">Необходимо:</p>
+                    <div class="item-card__items">
+                      <div class="res-item">
+                        <img src="./img/res4.png" alt="res4">
+                        <p class="res-item__count">
+                          x<span class="res-item__size">2</span>
+                        </p>
+                      </div>
+                      <div class="res-item">
+                        <img src="./img/res5.png" alt="res5">
+                        <p class="res-item__count">
+                          x<span class="res-item__size">1</span>
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="item-card">
+                  <img class="item-card-img" src="./img/potion3.png" alt="potion3">
+                  <div class="item-card__content">
+                    <p class="item-card__title">Зелье “Быстрое исцеление”</p>
+                    <p class="item-card__text">Необходимо:</p>
+                    <div class="item-card__items">
+                      <div class="res-item">
+                        <img src="./img/res6.png" alt="res6">
+                        <p class="res-item__count">
+                          x<span class="res-item__size">2</span>
+                        </p>
+                      </div>
+                      <div class="res-item">
+                        <img src="./img/res7.png" alt="res7">
+                        <p class="res-item__count">
+                          x<span class="res-item__size">1</span>
+                        </p>
+                      </div>
+                      <div class="res-item">
+                        <img src="./img/res8.png" alt="res8">
+                        <p class="res-item__count">
+                          x<span class="res-item__size">1</span>
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="item-card">
+                  <img class="item-card-img" src="./img/potion4.png" alt="potion4">
+                  <div class="item-card__content">
+                    <p class="item-card__title">Зелье “Бодрость”</p>
+                    <p class="item-card__text">Необходимо:</p>
+                    <div class="item-card__items">
+                      <div class="res-item">
+                        <img src="./img/res9.png" alt="res9">
+                        <p class="res-item__count">
+                          x<span class="res-item__size">2</span>
+                        </p>
+                      </div>
+                      <div class="res-item">
+                        <img src="./img/res10.png" alt="res10">
+                        <p class="res-item__count">
+                          x<span class="res-item__size">1</span>
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="items-block">
+              <p class="items-block__title">Торговля</p>
+              <p class="items-block__text">Не забывайте заглядывать к торговцам, цены товаров динамичны и зависят от
+                различных факторов (качество товара, количество товара, уровень торговца и т.д)</p>
+              <div class="items-block__content items-block__content--flex items-block__content--flex-wrap">
+                <img class="items-block__content-img items-block__content-img--w-200" src="./img/seller.png"
+                  alt="seller">
+                <div class="items-block__items">
+                  <div class="sel-item">
+                    <div class="sel-item-img">
+                      <img class="sel-item-img__img" src="./img/sel1.png" alt="sel1">
+                      <p class="sel-item-img__count">x<span class="sel-item-img__size">348</span></p>
+                    </div>
+                    <div class="sel-item__desc">
+                      <p class="sel-item__title">Мех</p>
+                      <p class="sel-item__quality sel-item__quality--common">обычное</p>
+                      <div class="sel-item__cost cost">
+                        <span class="cost__count">47</span>
+                        <img class="cost__img" src="./img/coin.png" alt="coin">
+                      </div>
+                    </div>
+                  </div>
+                  <div class="sel-item">
+                    <div class="sel-item-img">
+                      <img class="sel-item-img__img" src="./img/sel2.png" alt="sel2">
+                      <p class="sel-item-img__count">x<span class="sel-item-img__size">113</span></p>
+                    </div>
+                    <div class="sel-item__desc">
+                      <p class="sel-item__title">Камень огня</p>
+                      <p class="sel-item__quality sel-item__quality--rare">редкое</p>
+                      <div class="sel-item__cost cost">
+                        <span class="cost__count">329</span>
+                        <img class="cost__img" src="./img/coin.png" alt="coin">
+                      </div>
+                    </div>
+                  </div>
+                  <div class="sel-item">
+                    <div class="sel-item-img">
+                      <img class="sel-item-img__img" src="./img/sel3.png" alt="sel3">
+                      <p class="sel-item-img__count">x<span class="sel-item-img__size">892</span></p>
+                    </div>
+                    <div class="sel-item__desc">
+                      <p class="sel-item__title">Череп</p>
+                      <p class="sel-item__quality sel-item__quality--common">обычное</p>
+                      <div class="sel-item__cost cost">
+                        <span class="cost__count">11</span>
+                        <img class="cost__img" src="./img/coin.png" alt="coin">
+                      </div>
+                    </div>
+                  </div>
+                  <div class="sel-item">
+                    <div class="sel-item-img">
+                      <img class="sel-item-img__img" src="./img/sel4.png" alt="sel4">
+                      <p class="sel-item-img__count">x<span class="sel-item-img__size">23</span></p>
+                    </div>
+                    <div class="sel-item__desc">
+                      <p class="sel-item__title">Золотая корона</p>
+                      <p class="sel-item__quality sel-item__quality--rare">редкое</p>
+                      <div class="sel-item__cost cost">
+                        <span class="cost__count">527</span>
+                        <img class="cost__img" src="./img/coin.png" alt="coin">
+                      </div>
+                    </div>
+                  </div>
+                  <div class="sel-item">
+                    <div class="sel-item-img">
+                      <img class="sel-item-img__img" src="./img/sel5.png" alt="sel5">
+                      <p class="sel-item-img__count">x<span class="sel-item-img__size">767</span></p>
+                    </div>
+                    <div class="sel-item__desc">
+                      <p class="sel-item__title">Краснолист</p>
+                      <p class="sel-item__quality sel-item__quality--common">обычное</p>
+                      <div class="sel-item__cost cost">
+                        <span class="cost__count">14</span>
+                        <img class="cost__img" src="./img/coin.png" alt="coin">
+                      </div>
+                    </div>
+                  </div>
+                  <div class="sel-item">
+                    <div class="sel-item-img">
+                      <img class="sel-item-img__img" src="./img/sel6.png" alt="sel6">
+                      <p class="sel-item-img__count">x<span class="sel-item-img__size">75</span></p>
+                    </div>
+                    <div class="sel-item__desc">
+                      <p class="sel-item__title">Стальной слиток</p>
+                      <p class="sel-item__quality sel-item__quality--common">обычное</p>
+                      <div class="sel-item__cost cost">
+                        <span class="cost__count">236</span>
+                        <img class="cost__img" src="./img/coin.png" alt="coin">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="items-block">
+              <p class="items-block__title">Сражения</p>
+              <p class="items-block__text">Монстры часто будут недовольны, тем что вы собираете ресурсы у них под носом,
+                так что не забывайте подготавливаться к походам.</p>
+              <div class="items-block__content">
+                <img class="items-block__monster" src="./img/btl1.png" alt="btl1">
+                <img class="items-block__monster" src="./img/btl2.png" alt="btl2">
+              </div>
+            </div>
+            <div class="items-block">
+              <p class="items-block__title">Взаимодействие с другими игроками</p>
+              <p class="items-block__text">Не забывайте заглядывать в таверну, там вы всегда найдете с кем пообщаться,
+                поторговать и придумать план на рейд.</p>
+              <div class="items-block__content">
+                <img class="items-block__content-img" src="./img/beer.png" alt="beer">
+              </div>
+            </div>
+            <div class="items-block">
+              <p class="items-block__title">Награды</p>
+              <p class="items-block__text">За все ваши старания, вы будете получать различные награды (сундуки с
+                сокровищами, различные навыки, редкие кристаллы и многое другое) </p>
+              <div class="items-block__content">
+                <img class="items-block__content-img" src="./img/chests.png" alt="chests">
+              </div>
+            </div>
+            <div class="items-block">
+              <p class="items-block__title">А также многое другое</p>
+              <p class="items-block__text">С каждым днем игровых механик становиться все больше и больше. Вот некоторые
+                из них.</p>
+              <div class="items-block__content items-block__content--other">
+                <div class="other-card">
+                  <p class="other-card__title">Уникальне задания</p>
+                  <img src="./img/mission.png" alt="mission">
+                </div>
+                <div class="other-card">
+                  <p class="other-card__title">Гильдии и фракции</p>
+                  <img src="./img/guild.png" alt="guild.png">
+                </div>
+                <div class="other-card">
+                  <p class="other-card__title">Рейды</p>
+                  <img src="./img/raid.png" alt="raid.png">
+                </div>
+                <div class="other-card">
+                  <p class="other-card__title">Турниры</p>
+                  <img src="./img/tour.png" alt="tour.png">
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section id="form" class="screen-4">
+          <div class="block-title">
+            <p class="block-title__title">Бета-тест</p>
+            <img class="block-title__line" src="./img/line.png" alt="line">
+          </div>
+          <div class="beta-register-form">
+            <form class="beta-register-form__form" method="post">
+              <p class="beta-register-form__desc">Проект находится на ранней стадии разработки, но вы уже сейчас можете
+                подать заявку на бета-тест. Как только начнеться стадия бета-теста, вы сразу же получите письмо с
+                дальнейшими указаниями на свою почту.</p>
+              <div class="beta-register-form__form--wrapper" style="display: none;" id="form-email">
+                <input class="beta-register-form__input" placeholder="Email" type="email" name="email" id="email">
+                <div id="form-btn-wrapper" class="form-btn">
+                  <button id="form-btn" type="submit" class="form-btn__btn">Подать заявку</button>
+                </div>
+                <div id="info"></div>
+              </div>
+
+            </form>
+            <div id="roulette" class="roulette">
+              <span class="roulette__arrow"></span>
+              <div id="roulette__wheel" class="roulette__wheel">
+                <div id="items">
+                </div>
+              </div>
+              <button id="roulette_btn" onclick="spinFadeAnimation()" class="roulette__btn no-selected"></button>
+            </div>
+            <div id="reward" class="reward">
+
+            </div>
+          </div>
+        </section>
+      </div>
+
+      <footer class="footer">
+        <div class="social-links">
+          <div class="social">
+            <a href="https://t.me/alhimos" target="_blank">
+              <img src="./img/la_telegram.svg" alt="telegram">
+              <span>alhimos</span>
+            </a>
+          </div>
+          <div class="social">
+            <a href="https://vk.com/alhimos_official" target="_blank">
+              <img src="./img/la_vk.svg" alt="vk">
+              <span>alhimos__official</span>
+            </a>
+          </div>
+        </div>
+        <p>Уссаев Феликс - Скачков Кирилл</p>
+        <p>&#169; 2021</p>
+      </footer>
+    </main>
+  </div>
+
+  <script src="./js/main.js"></script>
+</body>
+
+</html>
