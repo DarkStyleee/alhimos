@@ -93,7 +93,7 @@ p {
 
 .screen-1 {
   padding: 40px 60px 0 60px;
-  background-image: url('/img/bg-library.jpg');
+  background-image: url('../img/bg-library.jpg');
   background-size: cover;
   background-position: center;
   height: 100vh;
@@ -219,7 +219,7 @@ p {
   width: 200px;
   height: 50px;
 
-  background-image: url('/img/frame.png');
+  background-image: url('../img/frame.png');
   background-repeat: no-repeat;
   -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
           box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -229,7 +229,7 @@ p {
 }
 
 .form-btn:hover {
-  background-image: url('/img/frame-hover.png');
+  background-image: url('../img/frame-hover.png');
 }
 
 .form-btn-link {
@@ -336,7 +336,7 @@ p {
 }
 
 .screen-2 {
-  background-image: url('/img/bg-icons.png');
+  background-image: url('../img/bg-icons.png');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -450,7 +450,7 @@ p {
 }
 
 .screen-3 {
-  background-image: url('/img/bg-dragon.jpg');
+  background-image: url('../img/bg-dragon.jpg');
   background-repeat: no-repeat;
   background-size: contain;
 }
@@ -993,7 +993,7 @@ p {
   max-width: 320px;
   height: 300px;
   width: 100%;
-  background-image: url('/img/roulette-bg.png');
+  background-image: url('../img/roulette-bg.png');
   background-repeat: no-repeat;
   background-size: 100% 100%;
   -webkit-transform: scale(1.7);
@@ -1024,7 +1024,7 @@ p {
   height: 270px;
   border-radius: 50%;
   position: relative;
-  background-image: url('/img/roulette.png');
+  background-image: url('../img/roulette.png');
   background-repeat: no-repeat;
   background-size: 100% 100%;
 }
@@ -1136,7 +1136,7 @@ p {
   max-width: 20px;
   height: 20px;
   width: 100%;
-  background-image: url('/img/arrow.png');
+  background-image: url('../img/arrow.png');
   background-repeat: no-repeat;
   background-size: 100% 100%;
   z-index: 1;
@@ -1151,7 +1151,7 @@ p {
   background: none;
   outline: none;
   border: none;
-  background-image: url('/img/spin-btn.png');
+  background-image: url('../img/spin-btn.png');
   background-repeat: no-repeat;
   background-size: 100% 100%;
   border-radius: 30px;
@@ -1159,7 +1159,7 @@ p {
 
 .roulette__btn:hover,
 .roulette__btn:focus {
-  background-image: url('/img/spin-btn-focus.png');
+  background-image: url('../img/spin-btn-focus.png');
   background-size: 100% 100%;
   background-repeat: no-repeat;
   border-radius: 30px;
@@ -1184,27 +1184,27 @@ p {
 }
 
 .dp-item--common {
-  background-image: url('/img/common.png');
+  background-image: url('../img/common.png');
 
 }
 .dp-item--uncommon {
-  background-image: url('/img/uncommon.png');
+  background-image: url('../img/uncommon.png');
 
 }
 .dp-item--rare {
-  background-image: url('/img/rare.png');
+  background-image: url('../img/rare.png');
 
 }
 .dp-item--mythical {
-  background-image: url('/img/mythical.png');
+  background-image: url('../img/mythical.png');
 
 }
 .dp-item--legendary {
-  background-image: url('/img/legendary.png');
+  background-image: url('../img/legendary.png');
 
 }
 .dp-item--gold {
-  background-image: url('/img/gold.png');
+  background-image: url('../img/gold.png');
 
 }
 
