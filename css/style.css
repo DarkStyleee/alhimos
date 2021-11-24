@@ -1,32 +1,25 @@
-/*
-* Prefixed by https://autoprefixer.github.io
-* PostCSS: v8.3.6,
-* Autoprefixer: v10.3.1
-* Browsers: last 4 version
-*/
-
 @font-face {
   font-family: 'Source Sans Pro';
-  src: url('/fonts/SourceSansPro-Regular.ttf')  format('truetype');
+  src: url('../fonts/SourceSansPro-Regular.ttf')  format('truetype');
   font-weight: 400;
 }
 
 @font-face {
   font-family: 'Source Sans Pro';
-  src: url('/fonts/SourceSansPro-Italic.ttf')  format('truetype');
+  src: url('../fonts/SourceSansPro-Italic.ttf')  format('truetype');
   font-style: italic;
   font-weight: 400;
 }
 
 @font-face {
   font-family: 'Source Sans Pro';
-  src: url('/fonts/SourceSansPro-SemiBold.ttf')  format('truetype');
+  src: url('../fonts/SourceSansPro-SemiBold.ttf')  format('truetype');
   font-weight: 600;
 }
 
 @font-face {
   font-family: 'Source Sans Pro';
-  src: url('/fonts/SourceSansPro-Bold.ttf')  format('truetype');
+  src: url('../fonts/SourceSansPro-Bold.ttf')  format('truetype');
   font-weight: 700;
 }
 
